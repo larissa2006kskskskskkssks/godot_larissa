@@ -76,3 +76,5 @@ autoplay = "idle"
 [node name="collision" type="CollisionShape2D" parent="."]
 position = Vector2(0, 6)
 shape = SubResource("CircleShape2D_ifnyq")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
